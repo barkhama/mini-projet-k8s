@@ -41,7 +41,7 @@ spec:
         volumeMounts:
           name: mysql-persistence-storage
           mountPath: /var/lib/mysql
-      volume:
+      volumes:
       - name: mysql-persistence-storage
         hostPath:
           path: /data/mysql
