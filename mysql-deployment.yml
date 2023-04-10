@@ -23,7 +23,7 @@ spec:
         env:
         - name: MYSQL_DATABASE
           value: wordpress
-        - name: MYSQL_USER:
+        - name: MYSQL_USER
           value: toto
         - name: MYSQL_PASSWORD
           valueFrom:
